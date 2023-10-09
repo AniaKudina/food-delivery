@@ -95,6 +95,20 @@ address {
   font-weight: 700;
   text-decoration-line: underline;
 }
+.curent{
+  position: relative;
+  color: #bbf330;
+}
+.curent::after{
+  content: "";
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: chartreuse;
+}
+
 
 .hero {
   padding-top: 14px;
