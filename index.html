@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html"><img src="./images/Vector.png" alt="logo" width="66" height="52"></a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#servise">Service</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="header">
+        <div class="container header-container">
+        <a class="logo" href="./index.html"><img src="./images/Vector.png" alt="logo" width="66" height="52"></a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#servise">Service</a></li>
+                <li><a class="nav-link" href="#menu">Menu</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <button type="button">Order Now</button>
+        <button class="button" type="button">Order Now</button>
+    </div>
     </header>
     <main>
-        <section id="about">
-            <h1>Enjoy Your Favorite Food From Anywhere</h1>
-            <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-            <button type="button">Order Now</button>
+        <section class="hero" id="about">
+            <div class="container hero-container">
+            <div class="hero-text-wrap">
+            <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
+            <button class="button" type="button">Order Now</button>
+            </div>
+            <div class="hero-img-wrap">
             <img src="./images/hero.png" alt="food" width="528" height="528">
+            </div>
+            </div>
         </section>
        <section id="servise">
         <img src="./images/aple.png" alt="aple" width="392" height="392">
@@ -42,17 +58,19 @@
         </ul>
         <button type="button">Order Now</button>
        </section>
-       <section id="menu">
-        <h2>Some of Our Favorites</h2>
-        <p>Looking for something delicious? </p>
-        <ul>
-            <li><img src="./images/gamburger-min.png" alt="gamburger" width="315" height="315"></li>
-            <li><img src="./images/Pasta-min.png" alt="pasta" width="315" height="315"></li>
-            <li><img src="./images/pizza-min.png" alt="pizza" width="315" height="315"></li>
-            <li><img src="./images/chicken-min.png" alt="chicken" width="315" height="315"></li>
-            <li><img src="./images/salat-min.png" alt="salat" width="315" height="315"></li>
-            <li><img src="./images/borshch-min.png" alt="borshch" width="315" height="315"></li>
+       <section class="favorites" id="menu">
+        <div class="container">
+        <h2 class="favorites-title">Some of Our Favorites</h2>
+        <p class="favorites-text">Looking for something delicious? </p>
+        <ul class="favorites-list">
+            <li class="favorites-item"><img src="./images/gamburger-min.png" alt="gamburger" width="315" height="315"></li>
+            <li class="favorites-item"><img src="./images/Pasta-min.png" alt="pasta" width="315" height="315"></li>
+            <li class="favorites-item"><img src="./images/pizza-min.png" alt="pizza" width="315" height="315"></li>
+            <li class="favorites-item"><img src="./images/chicken-min.png" alt="chicken" width="315" height="315"></li>
+            <li class="favorites-item"><img src="./images/salat-min.png" alt="salat" width="315" height="315"></li>
+            <li class="favorites-item"><img src="./images/borshch-min.png" alt="borshch" width="315" height="315"></li>
         </ul>
+        </div>
        </section>
        <section>
         <h2>What our Customers Say</h2>

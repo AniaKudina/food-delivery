@@ -1,0 +1,169 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+  font-size: 16px;
+}
+/* Стилі для обнулення верхніх відступів у елементів */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+
+ul {
+  list-style: none;
+
+  padding-left: 0;
+
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+
+a {
+  text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+
+img {
+  display: block;
+
+  max-width: 100%;
+
+  height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+  font-style: normal;
+}
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.button {
+  border-radius: 30px;
+  background: var(--Button-green, #bbf330);
+  padding: 6px 18px;
+  color: var(--Black, #2c2c2c);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+}
+.header {
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav {
+  margin-right: 30px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-link {
+  display: block;
+  padding: 28px 0;
+  color: var(--Black, #2c2c2c);
+  font-size: 14px;
+  line-height: normal;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #bbf330;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.hero {
+  padding-top: 14px;
+  padding-bottom: 69px;
+  /* background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    
+                rgba(46, 47, 66, 0.7)),
+    
+            url(../images/aple.png);
+            background-repeat: no-repeat;
+            background-position: center; */
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text-wrap {
+}
+
+.hero-title {
+  max-width: 502px;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.hero-text {
+  max-width: 511px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-img-wrap {
+  border-radius: 580px;
+  border: 26px solid var(--Yellow-main, #ffe550);
+  background: var(--White, #fefefe);
+}
+.favorites {
+  padding-top: 120px;
+  padding-bottom: 101px;
+}
+
+.favorites-title {
+  text-align: center;
+  font-size: 42px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.favorites-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.favorites-item {
+  /* width: calc((100% - 64px) / 3); */
+  width: 394px;
+  border-radius: 50%;
+  border: 16px solid var(--Yellow-main, #ffe550);
+  background: var(--White, #fefefe);
+  height: 397px;
+  padding: 21px;
+}
